@@ -1,2 +1,6 @@
 # crud
-simple Create Read Update Delete operations
+simple 
+* Create 
+* Read 
+* Update 
+* Delete 
