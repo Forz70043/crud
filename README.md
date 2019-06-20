@@ -1,5 +1,5 @@
 # crud
-simple 
+simple operations:
 * Create 
 * Read 
 * Update 
