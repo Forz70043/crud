@@ -13,11 +13,13 @@
     <body>
         <!-- assign=name var1=value -->
         [+include file='navbar.tpl'+]
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
+                <div class="col-sm-3">XXX</div>
                 <div class="col-sm-6">
-                    
+                    [+include file='welcome.tpl'+]
                 </div>
+                <div class="col-sm-3">YYY</div>
             </div>
         <div>
     </body>
