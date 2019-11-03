@@ -1,0 +1,13 @@
+smarty.tpl
+└──index.tpl
+   ├── navbar3.tpl
+   ├── cointainer.tpl
+   │   ├── sidebarSX.tpl
+   |   ├── registration.tpl
+   |   ├── corpoCentrale.tpl
+   |   |    ├── forms2.tpl
+   |   |    ├── forms3.tpl
+   |   |    └── forms4.tpl
+   |   ├── sidebarDX.tpl  
+   |   └── dashboard.tpl
+   └── footer.tpl

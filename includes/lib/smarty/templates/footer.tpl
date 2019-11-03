@@ -8,6 +8,6 @@
         integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
         crossorigin="anonymous">
     </script>
-    <script src="../includes/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../includes/lib/bootstrap-4.3.1/dist/js/bootstrap.js"></script>
 
 </html>
