@@ -5,6 +5,6 @@ $smarty = new SmartyEngine;
 
 
 
-$smarty->display();
+$smarty->display('index.tpl');
 
 ?>

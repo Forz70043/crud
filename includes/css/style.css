@@ -1,0 +1,195 @@
+
+label {
+    text-align: left;
+}
+
+.selectPiccola {
+    width: 65% !important;
+}
+
+.inputPiccola {
+    width: 60% !important;
+}
+.inputGrande {
+    width: 100 !important;
+}
+.sticky-top {
+    top: 10%;
+}
+label {
+    padding-left: 0.6250rem;
+}
+
+.card-header-logo {
+    text-align: left;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.card-footer2 {
+    padding: 0.15rem 1.25rem;
+    background-color: rgba(0,0,0,0.03);
+    border-top: 1px solid rgba(0,0,0,0.125);
+}
+
+.tableCustom {
+    margin-bottom: 0;
+}
+/* 1rem :16px = x : 5px */
+.p-2custom {
+    padding: 0.125rem 0.3125rem !important;
+}
+.captionCustom {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+ul {
+    margin-bottom: 0.125rem;
+}
+
+.sidenavSX {
+    color: red;
+    background-color: lightcoral;
+}
+
+.sidenavDX {
+    color:blueviolet;
+    background-color: lightskyblue;
+}
+
+.containerTable {
+    /*width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: blanchedalmond;
+    border: #555;
+    
+}
+.shadow2 {
+    box-shadow: 5px 10px 18px #888888 !important; 
+	-moz-box-shadow: 5px 10px 18px #888888 !important;
+    -webkit-box-shadow: 5px 10px 18px #888888 !important;
+    /* 
+    box-shadow: 0.3125rem 0.625rem 1.125rem #888888;
+    */
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+.form-check-input {
+    margin-top: 0.3em;
+    position: relative;
+    margin-left: auto;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+/* on hover card show shadow */
+.card-hover:hover {
+    box-shadow: 5px 10px 18px #888888 !important; 
+	-moz-box-shadow: 5px 10px 18px #888888 !important;
+    -webkit-box-shadow: 5px 10px 18px #888888 !important;
+}
+
+/* checkbox style modified into switch-box */
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { 
+    border-radius: 20px; 
+}
+.toggle.ios .toggle-handle { 
+    border-radius: 20px; 
+}
+
+/* azione lato dx tabella 
+    fatto con id e class per test
+*/
+a.rowButton, a#rowButton {
+    display: none;
+}
+
+/* on Hover display actions */
+.table-hover tbody tr:hover a#rowButton {
+    display: block;
+}
+.table-hover tbody tr:hover a.rowButton {
+    display: block;
+}
+
+/*
+.table-hover-diplayButton tbody tr:hover a#rowButton {
+    display: block;
+}
+*/
+
+/* override style of tr:hover */
+.table-hover tbody tr:hover {
+    background-color:  rgb(182, 227, 255);
+}
+/* to delete test purpose
+.table-hover tbody tr:hover a#a-button {
+    display: none;
+}
+*/
+
+.dashboard {
+    /*background-color: grey !important;*/
+    min-height: 1000px;
+}
+
+.img-fluid {
+    width: 20%;
+    height: 20%;
+}
+
+.user {
+    color: white;
+}
+
+.navbar-text {
+    display: inline-block;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 12%;
+    height: 12%;
+}
+
+.form-rounded {
+    border-radius: 1rem;
+    /* border-radius: 25%; 25px;*/
+}
+
+/* dal viola ->rosso->arancio chiaro */
+.bg-color-gradient {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+/* dal blu->viola->rosso->giallo */
+.bg-color-gradient2 {
+    background: rgb(58,80,180);
+    background: linear-gradient(90deg, rgba(58,80,180,1) 0%, rgba(253,29,29,1) 81%, rgba(255,246,11,1) 100%); 
+}
+/* dal lime ->marine/acqua ->celeste/blu */
+.bg-color-gradient3 {
+    background: rgb(144,251,30);
+    background: linear-gradient(90deg, rgba(144,251,30,1) 0%, rgba(29,253,237,1) 61%, rgba(33,11,255,1) 100%);
+}
+.bg-color-gradient-lightblu {
+    background: rgb(90,98,231);
+    background: linear-gradient(90deg, rgba(90,98,231,1) 0%, rgba(29,99,253,1) 75%, rgba(103,204,241,1) 100%);
+}
+
+.bg-color-gradient-blu {
+    background: rgb(0,8,138);
+    background: linear-gradient(90deg, rgba(0,8,138,1) 0%, rgba(29,99,253,1) 75%, rgba(103,204,241,1) 100%); 
+}
