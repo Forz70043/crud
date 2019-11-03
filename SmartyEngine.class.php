@@ -28,7 +28,15 @@ class SmartyEngine extends Smarty {
 
     }
 
-}
+    public function assignVars(){
+
+    }
+
+    public function assignVar(){
+        $this->assign();
+    }
+
+};
 
 
 ?>
